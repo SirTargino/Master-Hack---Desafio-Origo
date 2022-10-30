@@ -1,0 +1,92 @@
+*{
+    margin: 0; padding: 0%; font-family: Nexa,Helvetica,sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    background: rgb(33,155,145);
+    background: radial-gradient(circle, rgba(33,155,145,1) 0%, rgba(99,63,171,1) 100%);
+    box-shadow: 0px 10px 15px -17px rgba(0,0,0,0.75);
+    z-index: 1;
+}
+
+header ul{
+    list-style: none;
+    color: white;
+    margin: 0 auto;
+}
+
+header li{
+    display: inline;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+header img{
+    position: absolute;
+    left: 10px;
+    top: 17px;
+}
+
+main{
+    position: relative;
+    top: 85px;
+    text-align: center;
+    background-image: url(bg.png);
+}
+
+.quemsomos{
+    display: contents;
+    align-items: center;
+}
+
+.quemsomos h2{
+    margin: auto;
+    background-color: #633fab;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.servicos{
+    display: contents;
+    align-items: center;
+}
+
+.servicos h2{
+    margin: auto;
+    background-color: #633fab;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.contrate{
+    display: contents;
+    align-items: center;
+}
+
+.contrate h2{
+    margin: auto;
+    background-color: #633fab;
+    border-radius: 10px;
+    width: 250px;
+}
+
+footer{
+    height: 50px;
+    background-color: #633fab;
+    color: white;
+    position: relative;
+    top: 100%;
+    text-align: center;
+}
